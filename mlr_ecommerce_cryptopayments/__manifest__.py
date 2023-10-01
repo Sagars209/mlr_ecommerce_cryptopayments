@@ -5,7 +5,7 @@
     "website": "https://www.milightningrod.com",
     "category": "Ecommerce",
     "version": "1.0",
-    "depends": ["website"],
+    "depends": ["website", "website_sale"],
     "data": [
         "views/crypto_payment_provider.xml",
         "views/crypto_payment_form.xml",
