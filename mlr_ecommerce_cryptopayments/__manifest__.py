@@ -9,6 +9,7 @@
     "data": [
         "views/crypto_payment_provider.xml",
         "views/crypto_payment_form.xml",
+        "data/btc_payment_icons.xml"
     ],
     "installable": True,
     "application": False,
