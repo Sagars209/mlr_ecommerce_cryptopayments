@@ -6,15 +6,13 @@
             <field name="inherit_id" ref="payment.payment_provider_form"/>
             <field name="arch" type="xml">
                 <group name="provider_credentials" position="inside">
-                    <group attrs="{'invisible': [('is_crypto_provider', '=', 'true')]}">
-                        <group>
-                            <field name="code"/>
-                            <field name="is_crypto_provider"/>
-                            <field name="crypto_server_url"/>
-                            <field name="crypto_api_key" password="True"/>
-                            <field name="crypto_min_amount"/>
-                            <field name="crypto_max_amount"/>
-                        </group>
+                    <group>
+                        <field name="code"/>
+                        <field name="is_crypto_provider"/>
+                        <field name="crypto_server_url"/>
+                        <field name="crypto_api_key" password="True"/>
+                        <field name="crypto_min_amount"/>
+                        <field name="crypto_max_amount"/>
                     </group>
                 </group>
              </field>
